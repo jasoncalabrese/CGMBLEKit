@@ -71,7 +71,7 @@ public class TransmitterManager: TransmitterDelegate {
         return state.rawValue
     }
 
-    public let shouldSyncToRemoteService = false
+    public let shouldSyncToRemoteService = true
 
     weak var delegate: CGMManagerDelegate? {
         didSet {
